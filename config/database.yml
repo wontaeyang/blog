@@ -19,9 +19,6 @@ test:
   timeout: 5000
 
 production:
-    adapter:
-    encoding: utf8
-    database:
-    username:
-    password:
-    host: localhost
+    adapter: postgresql
+    encoding: unicode
+    pool: 5

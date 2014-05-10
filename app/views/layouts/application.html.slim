@@ -19,11 +19,6 @@ html lang="en-US"
           #header-content
             h1= link_to INFO['name'], root_path
             p= INFO['about'].html_safe
-            .twitter
-              a href="https://twitter.com/#{INFO['twitter']}" class="twitter-follow-button" data-show-count="false" data-dnt="true" Follow @#{INFO['twitter']}
-              javascript:
-                $('#twitter-wjs').remove();
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
             ul#connect.clearfix
               - if INFO['twitter']
                 li= link_to "@#{INFO['twitter']}", "http://twitter.com/#{INFO['twitter']}", class: 'icon-twitter', id: 'connect-twitter'
