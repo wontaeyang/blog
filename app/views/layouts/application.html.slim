@@ -17,6 +17,7 @@ html lang="en-US"
         header.clearfix
           = link_to 'Home', root_path, class: 'icon-home', id: 'home-link'
           #header-content
+            = image_tag 'logo.png', size: '100x100'
             h1= link_to INFO['name'], root_path
             p= INFO['about'].html_safe
             ul#connect.clearfix
