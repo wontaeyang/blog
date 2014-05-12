@@ -6,7 +6,7 @@ name:    <%= env :name,    'Wontae Yang' %>
 twitter: <%= env :twitter, 'wontae_yang' %>
 github:  <%= env :github,  'wontaeyang'  %>
 email:   <%= env :email,   'wontaeyang@gmail.com'  %>
-about:   <%= env :about,   'Full Stack Ruby Developer, Architect, Designer, Flatiron Grad, Robot, Data Nerd' %>
+about:   <%= env :about,   'Full Stack Ruby Developer, Architect, Designer, Flatiron Grad, Robot %>
 
 # Google Analytics
-ga_id:   <%= env :ga,      ''  %>
+ga_id:   <%= env :ga,      'UA-50879229-1'  %>
